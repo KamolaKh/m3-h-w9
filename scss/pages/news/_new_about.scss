@@ -1,0 +1,250 @@
+.new_about {
+  padding-bottom: 94px;
+
+  &__part {
+    margin-bottom: 70px;
+  }
+  &__img {
+    margin-bottom: 20px;
+  }
+  &__btn_block {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 29px;
+  }
+  &__btn {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    color: #fffcfc;
+    padding: 9px 7px;
+    background-color: #2351f5;
+  }
+  &__btnn {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    color: #fffcfc;
+    padding: 9px 7px;
+    background-color: #8f0070;
+  }
+  &__min {
+    font-size: 16px;
+    line-height: 187%;
+    color: #424242;
+  }
+  &__title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 19px;
+  }
+  &__text {
+    font-size: 12px;
+    line-height: 208%;
+    color: #515151;
+    margin-bottom: 30px;
+  }
+  &__text1 {
+    font-size: 12px;
+    line-height: 208%;
+    color: #515151;
+    margin-bottom: 54px;
+  }
+  &__line {
+    display: none;
+  }
+  &__line1 {
+    border: 1px solid #dedede;
+    margin-bottom: 54px;
+  }
+  &__item {
+    display: flex;
+    gap: 17px;
+    margin-bottom: 44px;
+  }
+  &__item:nth-child(7) {
+    margin-bottom: 0;
+  }
+  &__btn_block1 {
+    display: flex;
+    gap: 7px;
+    margin-bottom: 13px;
+  }
+  &__btn1 {
+    font-size: 10px;
+    line-height: 187%;
+    color: #fffcfc;
+    padding: 5px 20px;
+    background-color: #000;
+  }
+  &__btn2 {
+    font-size: 10px;
+    line-height: 187%;
+    color: #fffcfc;
+    padding: 5px 20px;
+    background-color: #2351f5;
+  }
+  &__btn3 {
+    font-size: 10px;
+    line-height: 187%;
+    color: #fffcfc;
+    padding: 5px 20px;
+    background-color: #ff7c32;
+  }
+  &__btn4 {
+    font-size: 10px;
+    line-height: 187%;
+    color: #fffcfc;
+    padding: 5px 20px;
+    background-color: #2351f5;
+  }
+  &__btn5 {
+    font-size: 10px;
+    line-height: 187%;
+    color: #fffcfc;
+    padding: 5px 20px;
+    background-color: #23a54f;
+  }
+  &__btn6 {
+    font-size: 10px;
+    line-height: 187%;
+    color: #fffcfc;
+    padding: 5px 20px;
+    background-color: #2351f5;
+  }
+  &__btn7 {
+    font-size: 10px;
+    line-height: 187%;
+    color: #fffcfc;
+    padding: 5px 20px;
+    background-color: #9921c3;
+  }
+  &__sub_title {
+    font-weight: 600;
+    font-size: 13px;
+    color: #000;
+  }
+  @media screen and (min-width: 768px) {
+    &__block {
+      display: flex;
+      justify-content: space-between;
+    }
+    &__line {
+      display: block;
+      border: 0.7px solid #a5a5a5;
+      margin-bottom: 80px;
+    }
+    &__part,
+    &__part1 {
+      max-width: 565px;
+    }
+    &__item {
+      max-width: 610px;
+    }
+    &__main {
+      margin-right: 70px;
+    }
+    &__line1 {
+      display: none;
+    }
+    &__title {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+    &__text {
+      font-size: 12px;
+      margin-bottom: 40px;
+    }
+    &__text1 {
+      font-size: 13px;
+      margin-bottom: 50px;
+    }
+    &__item {
+      gap: 30px;
+    }
+    &__btn_block1 {
+      margin-bottom: 20px;
+    }
+    &__sub_title {
+      max-width: 385px;
+      font-size: 14px;
+    }
+    &__btn1,
+    &__btn2,
+    &__btn3,
+    &__btn4,
+    &__btn5,
+    &__btn6,
+    &__btn7 {
+      font-size: 12px;
+      padding: 5px 20px;
+    }
+    &__btnn,
+    &__btn {
+      font-size: 12px;
+      padding: 9px 30px;
+    }
+  }
+  @media screen and (min-width: 1110px) {
+    &__block {
+      display: flex;
+      justify-content: space-between;
+    }
+    &__line {
+      display: block;
+      border: 0.7px solid #a5a5a5;
+      margin-bottom: 90px;
+    }
+    &__part,
+    &__part1 {
+      max-width: 575px;
+    }
+    &__item {
+      max-width: 618px;
+    }
+    &__main {
+      margin-right: 72px;
+    }
+    &__line1 {
+      display: none;
+    }
+    &__title {
+      font-size: 30px;
+      margin-bottom: 32px;
+    }
+    &__text {
+      font-size: 17px;
+      margin-bottom: 44px;
+    }
+    &__text1 {
+      font-size: 17px;
+      margin-bottom: 90px;
+    }
+    &__item {
+      gap: 32px;
+    }
+    &__btn_block1 {
+      margin-bottom: 23px;
+    }
+    &__sub_title {
+      max-width: 392px;
+      font-size: 23px;
+    }
+    &__btn1,
+    &__btn2,
+    &__btn3,
+    &__btn4,
+    &__btn5,
+    &__btn6,
+    &__btn7 {
+      font-size: 14px;
+      padding: 8px 26px;
+    }
+    &__btnn,
+    &__btn {
+      padding: 9px 32px;
+    }
+  }
+}
