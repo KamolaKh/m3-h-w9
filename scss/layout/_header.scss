@@ -1,5 +1,8 @@
 .header {
-
+  &__top{
+    display: none;
+  }
+  &__top_block{
     display: none;
   }
   &__top_link {
@@ -33,7 +36,8 @@
     width: 26px;
     height: 21px;
     background-repeat: no-repeat;
-
+    background-image: url(../img/header_menu.svg);
+    background-position: right center;
   }
   &__main {
     display: flex;
@@ -77,8 +81,8 @@
   }
 
   @media screen and (min-width: 768px) {
-    &__top {
 
+    &__top {
       display: flex;
       justify-content: end;
       align-items: center;
