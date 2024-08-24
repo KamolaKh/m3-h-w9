@@ -1,0 +1,9 @@
+@mixin button {
+  font-weight: 400;
+  font-size: 16px;
+  color: $white;
+  padding: 13px 44px;
+  background-color: $orande2;
+  cursor: pointer;
+  border: none;
+}

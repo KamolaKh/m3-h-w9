@@ -1,0 +1,127 @@
+.hero {
+  padding-top: 62px;
+  padding-bottom: 62px;
+
+  &__home_link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 209%;
+    color: $gray1;
+    margin-bottom: 33px;
+  }
+
+  &__service_link {
+    color: $orande2;
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 180%;
+    color: $black2;
+    margin-bottom: 33px;
+  }
+
+  &__text {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 187%;
+    color: $light_gray1;
+    margin-bottom: 52px;
+  }
+
+  &__block {
+    text-align: center;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 32px;
+    column-gap: 20px;
+    border-radius: 10px;
+    background-color: $light_gray2;
+    text-align: start;
+    padding-top: 32px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 32px;
+  }
+
+  &__img_block {
+    width: 35px;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  &__sub_title {
+    font-weight: 700;
+    font-size: 17px;
+    color: $black4;
+  }
+
+  &__sub_text {
+    font-size: 14px;
+    color: $light_gray3;
+  }
+  @media screen and (min-width: 600px) {
+    &__list {
+      padding: 40px 60px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    &__item {
+      gap: 25px;
+    }
+    &__img_block {
+      width: auto;
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+
+    &__sub_title {
+      font-size: 25px;
+    }
+
+    &__sub_text {
+      font-size: 20px;
+    }
+
+    &__item {
+      gap: 36px;
+    }
+
+    &__list {
+      padding: 67px 83px;
+      box-shadow: 10px 35px 30px 0 $light_gray5;
+      background-color: $white;
+      max-width: 1140px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    padding-top: 94px;
+    padding-bottom: 78px;
+  }
+
+  &__title {
+    font-size: 33px;
+    margin-bottom: 13px;
+  }
+
+  &__text {
+    font-size: 16px;
+    margin-bottom: 45px;
+  }
+
+  &__home_link {
+    margin-bottom: 15px;
+  }
+}
