@@ -1,8 +1,5 @@
 .header {
-  &__top{
-    display: none;
-  }
-  &__top_block {
+
     display: none;
   }
   &__top_link {
@@ -36,7 +33,7 @@
     width: 26px;
     height: 21px;
     background-repeat: no-repeat;
-    background-image: url("../img/header_menu.svg");
+
   }
   &__main {
     display: flex;
@@ -81,15 +78,13 @@
 
   @media screen and (min-width: 768px) {
     &__top {
-      padding-top: 15px;
-      padding-bottom: 15px;
-      background-color: $white;
-      display: block;
-    }
-    &__top_block {
+
       display: flex;
       justify-content: end;
       align-items: center;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      background-color: $white;
     }
     &__button {
       display: inline-block;
